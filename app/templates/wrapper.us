@@ -6,7 +6,7 @@
     <title><%= site.title %><%= post ? ' - '+post.title() : '' %></title>
   </head>
   <body>
-  
+
     <header>
       <nav class="navbar navbar-default" role="navigation">
         <div class="container-fluid">
@@ -31,11 +31,18 @@
       </nav>
     </header>
 
-    <%= yield %>
+    <div class="container-fluid">
+      <%= yield %>
+    </div>
 
     <footer>
-      Copyright <%= site.author %>, <%= new Date().getFullYear() %>.
+      <nav class="navbar navbar-default navbar-fixed-bottom" role="navigation">
+        <div class="container">
+          <h5>&copy; <%= new Date().getFullYear() %> <%= site.author %></h5>
+        </div>
+      </nav>
     </footer>
+    
     <script type="text/javascript" src="<%= js %>"></script>
   </body>
 </html>
