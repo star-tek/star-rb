@@ -8,17 +8,27 @@
       <% } %>
     </p>
   </div>
-  <section>
+
+  <section class="">
     <%= post.content() %>
   </section>
+
   <section class="navigation">
+    <ul class="pager">
       <% if(site.newerPost(post)) { %>
-        <span class="newer"><a href="/<%= site.newerPost(post).htmlPath() %>">&#8672;&nbsp;newer</a></span>
+        <li class="next"><a href="/<%= site.newerPost(post).htmlPath() %>">Newer &rarr;</a></li>
+      <% } else { %>
+        <li class="next disabled"><a href="#">Newer &rarr;</a></li>
       <% } %>
+
       <% if(site.olderPost(post)) { %>
-        <span class="older"><a href="/<%= site.olderPost(post).htmlPath() %>">older&nbsp;&#8674;</a></span>
+        <li class="previous"><a href="/<%= site.olderPost(post).htmlPath() %>">&larr; Older</a></li>
+      <% } else { %>
+        <li class="previous disabled"><a href="#">&larr; Older</a></li>
       <% } %>
-    </section>
+    </ul>
+  </section>
+
   <section class="comments">
     <% if(site.disqus) { %>
       <div id="disqus_thread"></div>
