@@ -16,6 +16,7 @@ I should be writing this paragraph now...
 - bootstrap fonts?
 - update markdown config (firstname/lastname)
 - change archive.html to posts.html?
+- fix datetime format (momentjs?)
 
 ## Getting Started
 
