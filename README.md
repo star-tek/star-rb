@@ -11,26 +11,29 @@ which undermines the staticness of the blog.  there is still a way to do this
 without affecting SEO, but it's complicated.  this is a blog, which is where
 I should be writing this paragraph now...
 
-### TODO:
+## TODO:
 - convert bootstrap css to use LESS for bootstrap-themes
 - bootstrap fonts?
 - update markdown config (firstname/lastname)
 - change archive.html to posts.html?
-
-Turns out that [lineman](http://linemanjs.com) makes a great blogging engine!
-
-Here's [a screencast](https://www.youtube.com/watch?v=raznFJedCZM) to demo usage for Test Double's blog, [Double Takes](http://blog.testdouble.com).
 
 ## Getting Started
 
 Here's how to publish a new blog to the web in minutes:
 
 1. Clone into this repository
-2. [Install lineman](https://github.com/linemanjs/lineman#getting-started) if you haven't yet.
-3. Run `npm install` to install required project dependencies.
-4. Run `lineman run` while you work on writing markdown files under `app/posts`
-5. Install [heroku](https://toolbelt.heroku.com) if you haven't, then run `heroku create --buildpack http://github.com/linemanjs/heroku-buildpack-lineman.git`
-6. Commit your post and `git push heroku master`, and your blog is hosted on the web with apache2!
+1. [Install lineman](https://github.com/linemanjs/lineman#getting-started) if you haven't yet.
+1. Run `npm install` to install required project dependencies.
+1. Run `bower install` to install frontend dependencies.
+1. Run `lineman run` while you work on writing markdown files under `app/posts`
+1. Install [heroku](https://toolbelt.heroku.com) if you haven't, then run `heroku create --buildpack http://github.com/linemanjs/heroku-buildpack-lineman.git`
+1. Commit your post and `git push heroku master`, and your blog is hosted on the web with apache2!
+
+## Lineman-blog
+
+Turns out that [lineman](http://linemanjs.com) makes a great blogging engine!
+
+Here's [a screencast](https://www.youtube.com/watch?v=raznFJedCZM) to demo usage for Test Double's blog, [Double Takes](http://blog.testdouble.com).
 
 ## Features
 
