@@ -1,17 +1,15 @@
 
-<div class="container text-center">
+<div class="page-header text-center">
   <h1 class="font-lobster">Archives</h1>
 </div>
 
-<div class="container">
-  <div class="row">
-    <ul>
-      <% _(site.posts).chain().reverse().each(function(post){ %>
-        <li class="center-block">
-          <h4><span class="label label-default"><%= post.date() %></span>&nbsp;
-          <a href="/<%= post.htmlPath() %>"><%= post.title() %></a></h4>
-        </li>
-      <% }) %>
-    </ul>
-  </div>
+<div class="row">
+  <ul>
+    <% _(site.posts).chain().reverse().each(function(post){ %>
+      <li class="center-block">
+        <h4><span class="label label-default"><%= post.date() %></span>&nbsp;
+        <a href="/<%= post.htmlPath() %>"><%= post.title() %></a></h4>
+      </li>
+    <% }) %>
+  </ul>
 </div>
