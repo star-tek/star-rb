@@ -16,7 +16,8 @@ module.exports = function(lineman) {
   return {
     webfonts: {
       files: {
-        "vendor/bower/bootstrap/dist/fonts": "vendor/bower/bootstrap/dist/fonts/**/*"
+        "vendor/bower/bootstrap/dist/fonts": "vendor/bower/bootstrap/dist/fonts/**/*",
+        "vendor/bower/bootstrap/fonts": "vendor/bower/bootstrap/fonts/**/*"
       }
     }
 
