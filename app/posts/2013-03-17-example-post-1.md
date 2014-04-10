@@ -1,7 +1,7 @@
 ---
 title: "A very nice title. With punctuation!"
 author:
-  name: "Double Agent Man"
+  name: "Lil Poster Man"
 ---
 I'm just an example post
 
