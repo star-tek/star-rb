@@ -31,15 +31,6 @@
         <li class="next disabled"><a href="#">Newer &rarr;</a></li>
       <% } %>
 
-      <li class="center-block">
-        <span class="text-info">
-          <i class="fa fa-twitter fa-2x"></i>&nbsp;
-          <i class="fa fa-facebook-square fa-2x"></i>&nbsp;
-          <i class="fa fa-linkedin fa-2x"></i>&nbsp;
-          Share
-        </span>
-      </li>
-
       <% if(site.olderPost(post)) { %>
         <li class="previous"><a href="/<%= site.olderPost(post).htmlPath() %>">&larr; Older</a></li>
       <% } else { %>
