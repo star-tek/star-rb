@@ -16,7 +16,9 @@ without affecting SEO, but it's complicated.  this is a blog, which is where
 I should be writing this paragraph now...
 
 ## TODO:
-- bootstrap fonts?
+- add a swell image to each post
+- add buttons for sharing posts
+- font awesome
 - update markdown config (firstname/lastname)
 - change archive.html to posts.html?
 - fix datetime format (momentjs?)

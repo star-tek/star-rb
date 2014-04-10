@@ -20,6 +20,10 @@ module.exports = function(lineman) {
       vendor: [
         "vendor/bower/bootstrap/dist/css/bootstrap.css"
       ]
+    },
+
+    webfonts: {
+      root: "fonts"
     }
 
   };
