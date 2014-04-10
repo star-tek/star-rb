@@ -18,7 +18,6 @@ module.exports = function(lineman) {
 
     css: {
       vendor: [
-        "vendor/bower/bootstrap/dist/css/bootstrap.css",
         "vendor/bower/font-awesome/css/font-awesome.css"
       ]
     },

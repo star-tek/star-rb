@@ -1,7 +1,3 @@
-// Main less file for your application.
-// Use `@import` to use other less files
-// relative to 'app/css' or 'vendor/css'.
-
 html {
   position: relative;
   min-height: 100%;
@@ -47,12 +43,16 @@ body > .container {
   margin: 20px 0;
 }
 
+.font-lobster {
+  font-family: 'Lobster', Helvetica, Arial, sans-serif;
+}
+
 /* External Fonts
 --------------------------------------------------
   open fonts here: https://www.google.com/fonts
 */
 
-@import url(http://fonts.googleapis.com/css?family=Lobster|Ceviche+One|Roboto+Condensed:400italic,700italic,700,400);
+@import url(http://fonts.googleapis.com/css?family=Lobster|Roboto+Condensed:400italic,700italic,700,400);
 
 /* Bootstrap Theme Configuration
 --------------------------------------------------
@@ -68,7 +68,12 @@ body > .container {
 */
 
 @import "../../vendor/bower/bootstrap/less/theme.less";
+@import "../../vendor/bower/bootstrap/less/bootstrap.less";
 
-// @brand-primary: #ABCDEF;
+/*@brand-primary: #ABCDEF;*/
 
+/*set custom font*/
 @font-family-sans-serif:  'Roboto Condensed', "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+/*set font-awesome glyphs*/
+@icon-font-name:          "fontawesome-webfont";
