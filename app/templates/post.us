@@ -1,29 +1,22 @@
+
+
 <article class="post">
-  <div class="panel panel-info">
-    <div class="title panel-heading">
-
-      <div class="panel-title">
-        <h2><a href="/<%= post.htmlPath() %>"><%= post.title() %></a></h2>
-      </div>
-
-    </div>
-
-    <div class="panel-body">
-      <section>
-        <p>
-          <span class="label label-default"><%= post.date() %></span>
-          <% if(post.get('author')) { %>
-            <%= post.get('author').name %>
-          <% } %>
-        </p>
-      </section>
-
-      <section class="">
-        <%= post.content() %>
-      </section>
-
-    </div>
+  <div class="page-header">
+    <h2><a href="/<%= post.htmlPath() %>"><%= post.title() %></a></h2>
+  
+    <section>
+      <p>
+        <span class="label label-default"><%= post.date() %></span>
+        <% if(post.get('author')) { %>
+          <%= post.get('author').name %>
+        <% } %>
+      </p>
+    </section>
   </div>
+
+  <section class="">
+    <%= post.content() %>
+  </section>
 
   <section class="navigation">
     <ul class="pager">
