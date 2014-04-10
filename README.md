@@ -17,10 +17,8 @@ I should be writing this paragraph now...
 
 ## TODO:
 - add a swell image to each post
-- add buttons for sharing posts
-- font awesome
+- timplement buttons for sharing posts
 - change archive.html to posts.html?
-- fix datetime format (momentjs?)
 
 ## Getting Started
 
