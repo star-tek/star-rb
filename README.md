@@ -1,5 +1,9 @@
 # lineman-blog-bootstrap
 
+A blog template with a responsive layout.
+
+### See it running on [Heroku](https://lineman-blog-bootstrap.herokuapp.com)
+
 not really adding much here, just trying to provide the most common starting point for a static blog. 
 it just needs a little bootstrap, which isn't much work but who likes repeating stuff?  plus, if
 i add this template as a common remote in all my blog repositories, then i can just pull in changes
