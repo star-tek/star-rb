@@ -4,7 +4,7 @@
   <ul>
     <% _(site.posts).chain().reverse().each(function(post){ %>
       <li class="center-block">
-        <h4><span class="label label-default"><%= post.date() %></span>&nbsp;
+        <h4><span class="badge"><%= post.date() %></span>&nbsp;
         <a href="/<%= post.htmlPath() %>"><%= post.title() %></a></h4>
       </li>
     <% }) %>
