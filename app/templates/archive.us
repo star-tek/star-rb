@@ -1,7 +1,4 @@
-
-<div class="page-header text-center">
-  <h1 class="font-lobster">Archives</h1>
-</div>
+<h1 class="text-center font-lobster">Archives</h1>
 
 <div class="row">
   <ul>

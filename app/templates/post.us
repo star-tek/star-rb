@@ -1,18 +1,14 @@
-
-
 <article class="post">
-  <div class="page-header">
     <h2><a href="/<%= post.htmlPath() %>"><%= post.title() %></a></h2>
   
     <section>
       <p>
-        <span class="label label-default"><%= post.date() %></span>
+        <span class="badge"><%= post.date() %></span>
         <% if(post.get('author')) { %>
           <%= post.get('author').name %>
         <% } %>
       </p>
     </section>
-  </div>
 
   <section class="">
     <%= post.content() %>
