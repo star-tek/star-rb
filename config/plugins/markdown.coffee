@@ -7,8 +7,8 @@ module.exports = (lineman) ->
   config:
     markdown:
       options:
-        author: "FirstName LastName"
-        title: "my lineman blog"
+        author: "David Conner"
+        title: "My Lineman Blog"
         description: "where I post all my brilliant ideas"
         url: "http://www.mylinemanblog.com"
         rssCount: 10 #<-- remove, comment, or set to zero to disable RSS generation

@@ -19,7 +19,6 @@ I should be writing this paragraph now...
 - add a swell image to each post
 - add buttons for sharing posts
 - font awesome
-- update markdown config (firstname/lastname)
 - change archive.html to posts.html?
 - fix datetime format (momentjs?)
 
