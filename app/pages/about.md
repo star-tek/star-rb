@@ -8,6 +8,6 @@ title: ""
 
 <div class="text-center" markdown=1>
 
-I'm just an about page formatted in _markdown_!
+Notice the _responsive_ layout.  Try reducing the screen size to cell size.
 
 </div>
