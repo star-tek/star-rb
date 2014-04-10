@@ -16,8 +16,6 @@ without affecting SEO, but it's complicated.  this is a blog, which is where
 I should be writing this paragraph now...
 
 ## TODO:
-- add a swell image to each post
-- timplement buttons for sharing posts
 - change archive.html to posts.html?
 
 ## Getting Started
