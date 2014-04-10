@@ -46,3 +46,22 @@ body > .container {
 .container .text-muted {
   margin: 20px 0;
 }
+
+
+/* Bootstrap Theme Configuration
+--------------------------------------------------
+  originally, this was in a separate file: app/css/bootstrap/theme.less
+    but this was a little complicated and was a hack anyways:
+    the generated file was in app/css/bootstrap/theme.less.css
+    and was only concatenated into app.less.css because of the wildcard
+    app/css/ * * /*.css.  i like the single-file asset result, but i dont
+    want generated files in the repo.
+
+  override variables.less here (less delays evalation of vars)
+  find var values in vendor/bower/bootstrap/less/variables.less
+*/
+
+@import "../../vendor/bower/bootstrap/less/theme.less";
+
+// @brand-primary: #ABCDEF;
+

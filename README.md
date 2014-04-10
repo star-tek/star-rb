@@ -16,7 +16,6 @@ without affecting SEO, but it's complicated.  this is a blog, which is where
 I should be writing this paragraph now...
 
 ## TODO:
-- convert bootstrap css to use LESS for bootstrap-themes
 - bootstrap fonts?
 - update markdown config (firstname/lastname)
 - change archive.html to posts.html?
