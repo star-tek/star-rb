@@ -17,7 +17,8 @@ I should be writing this paragraph now...
 
 ## TODO:
 - change archive.html to posts.html?
-- set up google analytics for template
+- set up different avatars for authors in markdown metadata
+- set up tagged posts?
 - how to do distributed development?  
   - so i can push changes from another fork into this one?
   - why does this not just work with multiple remotes like github forks
