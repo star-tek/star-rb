@@ -1,6 +1,6 @@
 <article class="post">
   <h2>
-    <img src="/img/dc.jpeg" class="img-circle img-responsive pull-left" width=50 height=50/>&nbsp;
+    <img src="<%= (post.get('author') && post.get('author').pic) || '/img/star-rb-logo.png' %>" class="<%= (post.get('author') && post.get('author').pic) && 'img-circle' %> img-responsive pull-left" width=50 height=50/>&nbsp;
     <a href="/<%= post.htmlPath() %>"><%= post.title() %></a>
   </h2>
 
