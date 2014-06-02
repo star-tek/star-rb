@@ -13,6 +13,6 @@ module.exports = (lineman) ->
         url: "https://star-rb.xel.io"
         rssCount: 10 #<-- remove, comment, or set to zero to disable RSS generation
         disqus: "star-rb"
-        #googleAnalytics: # <-- uncomment and refer to the setup script to identify these options
-          #trackingID:
-          #domainName:
+        googleAnalytics:
+          trackingID: "UA-51551462-1"
+          domainName: "xel.io"
