@@ -4,7 +4,7 @@ title: ""
 
 <h1 class="text-center font-title">About Star.rb</h1>
 
-<img src="/img/star-rb-logo.png" alt="Star.rb Logo" class="center-block" />
+<img src="/img/star-rb-logo.png" alt="Star.rb Logo" class="img-responsive center-block" />
 
 <div class="text-center" markdown=1>
 
