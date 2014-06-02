@@ -5,6 +5,7 @@
     <link rel="alternate" type="application/rss+xml" title="<%= site.title %> - feed" href="/index.xml" />
     <title><%= site.title %><%= post ? ' - '+post.title() : '' %></title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="image/png" href="/img/star-rb-logo.png">
   </head>
   <body>
     <% if(site.googleAnalytics) { %>
