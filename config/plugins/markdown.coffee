@@ -7,8 +7,8 @@ module.exports = (lineman) ->
   config:
     markdown:
       options:
-        author: "star-rb"
-        title: "star-rb"
+        author: "Star.rb"
+        title: "Star.rb"
         description: "where I post all my brilliant ideas"
         url: "https://star-rb.xel.io"
         rssCount: 10 #<-- remove, comment, or set to zero to disable RSS generation
