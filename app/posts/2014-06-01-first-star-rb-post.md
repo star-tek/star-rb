@@ -4,4 +4,5 @@ author:
   name: "David Conner"
 ---
 
-Needs copy writer badly.
+Here's our first Star.rb post.  I'll update it soon.  Haven't quite figured out how to say what I want to say.
+
