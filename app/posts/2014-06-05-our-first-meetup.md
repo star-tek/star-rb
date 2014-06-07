@@ -41,6 +41,6 @@ tech community.  But an hour may be too far for some to travel, so having these 
 members to stay active and further involvement in their area.  It should also help us identify the untitled leaders 
 in our meetup group.
 
-### Here's is our [next meetup event](http://www.meetup.com/Star-rb/events/187458672/).
+### Here's is our [next meetup event](http://www.meetup.com/Star-rb/events/187458672/) on Tuesday June 17th.
 
 ## See you soon!  
