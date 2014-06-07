@@ -15,7 +15,7 @@ title: ""
     
     <hr/>
 
-    <p><a class="btn btn-danger btn-lg" role="button" href="http://www.meetup.com/Star-rb/">Join Now on Meetup.com »</a></p>
+    <p><a class="btn btn-danger btn-lg" role="button" href="http://www.meetup.com/Star-rb/">Join Now on Meetup.com</a></p>
 </div>
 
 <img src="/img/star-rb-logo.png" alt="Star.rb Logo" class="img-responsive center-block"/>
