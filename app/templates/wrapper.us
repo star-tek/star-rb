@@ -34,7 +34,9 @@
           </div>
 
           <div class="collapse navbar-collapse" id="blog-navbar-collapse">
+            <a href="<%= site.meetupLink %>" class="btn btn-danger navbar-btn">Join Now!</a>
             <ul class="nav navbar-nav">
+              <li><a href="/learn-ruby.html">Learn Ruby!</a></li>
               <li><a href="/archive.html">Archive</a></li>
               <li><a href="/about.html">About</a></li>
             </ul>

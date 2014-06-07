@@ -12,6 +12,7 @@ module.exports = (lineman) ->
         description: "where I post all my brilliant ideas"
         url: "https://star-rb.xel.io"
         rssCount: 10 #<-- remove, comment, or set to zero to disable RSS generation
+        meetupLink: "http://www.meetup.com/Star-rb/"
         disqus: "star-rb"
         googleAnalytics:
           trackingID: "UA-51551462-1"
