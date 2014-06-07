@@ -32,7 +32,7 @@ title: ""
 #### You'll need a Text Editor:
 
 - IntelliJ [RubyMine](http://www.jetbrains.com/ruby/) is **highly, highly recommended** because it allows you to easily 
-  dig into the source code for the gems and modules your project is built on.  **Use the ⌘-click shortcut**!  Do it!
+  dig into the source code for the gems and modules your project is built on.  **Use the &#x2318;-click shortcut**!  Do it!
 - [Sublime Text](http://www.sublimetext.com/) - If you're new, this is what we recommend.
 - [Vim](http://www.vim.org/) and [Emacs](http://www.gnu.org/software/emacs/) are more advanced users. 
 - [Nitrous.IO](https://www.nitrous.io/) - More than an IDE in the browser.  Highly recommended for new startups.  Hosts
